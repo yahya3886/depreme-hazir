@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Arka plan -->
+    <path
+        android:fillColor="#B3261E"
+        android:pathData="M0,24 a24,24 0 0 1 24,-24 h60 a24,24 0 0 1 24,24 v60 a24,24 0 0 1 -24,24 h-60 a24,24 0 0 1 -24,-24 z" />
+    <!-- Kalkan şekli -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,22 L78,32 v20 c0,16 -10,30 -24,36 c-14,-6 -24,-20 -24,-36 v-20 z" />
+    <!-- İçindeki "!" -->
+    <path
+        android:fillColor="#B3261E"
+        android:pathData="M52,40 h4 l-1.4,18 h-1.2 z M54,64 m-3,0 a3,3 0 1 0 6,0 a3,3 0 1 0 -6,0" />
+</vector>

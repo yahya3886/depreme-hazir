@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Depreme Hazır</string>
+    <string name="app_tagline">Türkiye için deprem hazırlık rehberi</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_hazirlik">Hazırlık</string>
+    <string name="nav_kontrol">Kontrol</string>
+    <string name="nav_rehber">Rehber</string>
+    <string name="nav_acil">Acil</string>
+
+    <!-- Home -->
+    <string name="home_ready_title">Depreme hazır mısın?</string>
+    <string name="home_ready_desc">Aşağıdaki kontrol listesini tamamlayarak evini ve aileni depreme hazırla.</string>
+    <string name="home_open_checklist">Kontrol listesini aç</string>
+    <string name="home_progress_empty">Henüz hiçbir madde tamamlanmadı.</string>
+
+    <string name="home_drop_cover_hold">Deprem anı: Çök – Kapan – Tutun</string>
+    <string name="step1_title">Çök</string>
+    <string name="step1_desc">Sarsıntı başlar başlamaz yere çök. Mümkünse sağlam bir masanın altına gir.</string>
+    <string name="step2_title">Kapan</string>
+    <string name="step2_desc">Başını ve boynunu ellerinle koru. Devrilecek eşya ve camlardan uzak dur.</string>
+    <string name="step3_title">Tutun</string>
+    <string name="step3_desc">Sarsıntı durana kadar tutun. Dışarı koşmaya çalışma, asansör asla kullanma.</string>
+
+    <string name="home_facts_title">Türkiye\'de deprem gerçeği</string>
+    <string name="home_fact1">•  Türkiye topraklarının yaklaşık %90\'ı yüksek deprem tehlikesi altındadır.</string>
+    <string name="home_fact2">•  Nüfusun büyük kısmı yüksek tehlikeli bölgede ve eski binalarda yaşar.</string>
+    <string name="home_fact3">•  17 Ağustos 1999 Marmara ve 6 Şubat 2023 Kahramanmaraş depremleri en yıkıcı örneklerdendir.</string>
+    <string name="home_fact4">•  Deprem anında hayatta kalma, önceden yapılan hazırlıkla mümkün olur.</string>
+
+    <string name="home_quiz_title">Bilgini test et</string>
+    <string name="home_quiz_desc">6 soruluk hızlı test ile deprem bilgini ölç.</string>
+    <string name="home_quiz_btn">Testi çöz</string>
+
+    <string name="home_assembly_title">Toplanma alanı</string>
+    <string name="home_assembly_desc">Ailenle en yakın resmî toplanma alanını ve tahliye rotanı önceden belirle. AFAD\'ın sitesinden sorgulayabilirsin.</string>
+    <string name="home_assembly_btn">AFAD\'ı aç</string>
+
+    <string name="home_tip_title">Çantan hazır mı?</string>
+    <string name="home_tip_desc">Acil durum çantası evin kapısının yanında, 3 günlük su ve gıda ile hazır beklemelidir.</string>
+
+    <!-- Checklist -->
+    <string name="checklist_title">Hazırlık kontrol listesi</string>
+    <string name="checklist_progress_label">Tamamlanan: %1$d / %2$d</string>
+
+    <!-- Guide -->
+    <string name="guide_title">Ne yapmalıyım?</string>
+
+    <!-- Emergency -->
+    <string name="emergency_call">Ara</string>
+    <string name="emergency_dial_error">Arama uygulaması bulunamadı.</string>
+    <string name="open_error">Bağlantı açılamadı, lütfen internet bağlantını kontrol et.</string>
+
+    <!-- Quiz -->
+    <string name="quiz_title">Deprem bilgi testi</string>
+    <string name="quiz_score">Doğru: %1$d / %2$d</string>
+    <string name="quiz_next">Sonraki soru</string>
+    <string name="quiz_finish">Testi bitir</string>
+    <string name="quiz_restart">Yeniden dene</string>
+    <string name="quiz_result_title">Sonucun</string>
+    <string name="quiz_result_great">Harika! Temel bilgilerin çok iyi.</string>
+    <string name="quiz_result_good">İyi gidiyorsun, biraz daha çalış.</string>
+    <string name="quiz_result_low">Rehber sekmesini okuyup tekrar dene.</string>
+    <string name="quiz_back">Geri</string>
+    <string name="quiz_question_counter">Soru %1$d / %2$d</string>
+</resources>

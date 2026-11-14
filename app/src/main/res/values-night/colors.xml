@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme -->
+    <color name="md_primary">#FFB4AB</color>
+    <color name="md_on_primary">#690005</color>
+    <color name="md_primary_container">#8B1D16</color>
+    <color name="md_on_primary_container">#FFDAD4</color>
+
+    <color name="md_secondary">#E7BDB8</color>
+    <color name="md_on_secondary">#442925</color>
+    <color name="md_secondary_container">#5D3F3B</color>
+    <color name="md_on_secondary_container">#FFDAD4</color>
+
+    <color name="md_tertiary">#E4C04A</color>
+    <color name="md_on_tertiary">#3D2F00</color>
+    <color name="md_tertiary_container">#574600</color>
+    <color name="md_on_tertiary_container">#FFDF9B</color>
+
+    <color name="md_error">#FFB4AB</color>
+    <color name="md_on_error">#690005</color>
+    <color name="md_error_container">#93000A</color>
+    <color name="md_on_error_container">#FFDAD6</color>
+
+    <color name="md_background">#1A1110</color>
+    <color name="md_on_background">#F0DFDD</color>
+    <color name="md_surface">#1A1110</color>
+    <color name="md_on_surface">#F0DFDD</color>
+    <color name="md_surface_variant">#524442</color>
+    <color name="md_on_surface_variant">#D8C2BF</color>
+    <color name="md_surface_container">#241A19</color>
+    <color name="md_surface_container_high">#2F2422</color>
+    <color name="md_outline">#A08C8A</color>
+    <color name="md_outline_variant">#524442</color>
+    <color name="md_scrim">#00000000</color>
+
+    <color name="success_green">#388E3C</color>
+    <color name="quiz_wrong">#B71C1C</color>
+    <color name="step_badge">#FFB4AB</color>
+</resources>
