@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.depremhazirlik.app.databinding.ActivityMainBinding
+import com.depremhazirlik.app.ui.AboutFragment
 import com.depremhazirlik.app.ui.ChecklistFragment
 import com.depremhazirlik.app.ui.EmergencyFragment
 import com.depremhazirlik.app.ui.GuideFragment
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_checklist -> ChecklistFragment()
                 R.id.nav_guide -> GuideFragment()
                 R.id.nav_emergency -> EmergencyFragment()
+                R.id.nav_about -> AboutFragment()
                 else -> return@setOnItemSelectedListener false
             }
             supportFragmentManager.beginTransaction()

@@ -21,4 +21,9 @@
         android:icon="@drawable/ic_call"
         android:title="@string/nav_acil" />
 
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_info"
+        android:title="@string/nav_about" />
+
 </menu>

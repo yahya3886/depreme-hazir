@@ -17,6 +17,7 @@ kontrol listeleri, davranış rehberi, acil numaralar ve bir bilgi testi sunar.
 | **Kontrol** | 31 maddelik uygulamalı kontrol listesi: acil durum çantası, ev güvenliği ve aile planı. İşaretlemeler `SharedPreferences` üzerinde kalıcı olarak saklanır |
 | **Rehber** | 5 katlanabilir bölüm: deprem öncesi, anında, sonrası, enkaz altında ve dikkat edilmesi gerekenler |
 | **Acil** | 112 başta olmak üzere AFAD (122), itfaiye (110), polis (155), jandarma (156), Kızılay (168) ve ALO Sıfır (184) hatları. Tek dokunuşla arama |
+| **Hakkında** | Sürüm bilgisi, uygulamanın amacı, kaynak kod bağlantısı, resmî kurum olmadığına dair uyarı ve teknik künye |
 | **Test** | 6 soruluk bilgi testi, doğru/yanlış geri bildirimi ve açıklayıcı cevaplar |
 
 Ek olarak:
@@ -72,6 +73,7 @@ app/src/main/java/com/depremhazirlik/app/
 │   ├── ChecklistFragment.kt     # Kontrol listesi sekmesi
 │   ├── GuideFragment.kt         # Davranış rehberi sekmesi
 │   ├── EmergencyFragment.kt     # Acil numaralar sekmesi
+│   ├── AboutFragment.kt         # Hakkında sekmesi
 │   └── QuizActivity.kt          # Bilgi testi
 ├── adapters/
 │   ├── ChecklistAdapter.kt

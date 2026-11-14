@@ -8,6 +8,7 @@
     <string name="nav_kontrol">Kontrol</string>
     <string name="nav_rehber">Rehber</string>
     <string name="nav_acil">Acil</string>
+    <string name="nav_about">Hakkında</string>
 
     <!-- Home -->
     <string name="home_ready_title">Depreme hazır mısın?</string>
@@ -64,4 +65,22 @@
     <string name="quiz_result_low">Rehber sekmesini okuyup tekrar dene.</string>
     <string name="quiz_back">Geri</string>
     <string name="quiz_question_counter">Soru %1$d / %2$d</string>
+
+    <!-- Hakkında -->
+    <string name="about_version">Sürüm %1$s</string>
+    <string name="about_desc_title">Bu uygulama nedir?</string>
+    <string name="about_desc">Depreme Hazır, Türkiye\'deki deprem gerçeğini hatırlatmak ve afete hazırlığı kolaylaştırmak için hazırlanmış bağımsız bir Android uygulamasıdır. Tamamen çevrimdışı çalışır ve hiçbir izin istemez.</string>
+    <string name="about_features_title">Ne yapabilir?</string>
+    <string name="about_features">•  31 maddelik kalıcı hazırlık kontrol listesi\n•  Deprem öncesi, anı ve sonrası davranış rehberi\n•  Acil numaralar ve tek dokunuşla arama\n•  6 soruluk bilgi testi</string>
+    <string name="about_source_title">Kaynak kod</string>
+    <string name="about_source_desc">Uygulamanın tüm kaynak kodu GitHub deposunda açıktır. Hata ve önerilerini Issues bölümünden iletebilirsin.</string>
+    <string name="about_source_btn">Depoyu aç</string>
+    <string name="about_warning_title">Önemli uyarı</string>
+    <string name="about_warning">Bu uygulama AFAD, Kızılay veya başka bir resmî kurum ürünü değildir. Acil durumlarda aranacak numara 112\'dir; resmî duyurular esas alınmalıdır.</string>
+    <string name="about_tech_title">Yapım</string>
+    <string name="about_tech">Kotlin 2.0  •  AndroidX  •  Material Design 3\nDerleme: Gradle 8.13 / AGP 8.11.1\nDestek: Android 7.0 (API 24) ve üzeri</string>
+    <string name="about_content_title">İçerik kaynağı</string>
+    <string name="about_content">Rehber metinleri AFAD\'ın yayımladığı genel deprem hazırlık önerileri temel alınarak hazırlanmıştır.</string>
+    <string name="about_copyright">© 2026 Depreme Hazır</string>
+    <string name="about_open_error">Depo bağlantısı açılamadı.</string>
 </resources>
