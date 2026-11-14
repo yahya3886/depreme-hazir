@@ -18,10 +18,9 @@ class ChecklistAdapter(
     private val onProgressChanged: () -> Unit
 ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
-    private sealed interface Row {
-        data class SectionRow(val section: ChecklistSection) : Row
-        data class ItemRow(val item: ChecklistItem) : Row
-    }
+    private sealed interface Row
+    private data class SectionRow(val section: ChecklistSection) : Row
+    private data class ItemRow(val item: ChecklistItem) : Row
 
     private val rows: List<Row> = buildList {
         for (section in ChecklistData.sections) {

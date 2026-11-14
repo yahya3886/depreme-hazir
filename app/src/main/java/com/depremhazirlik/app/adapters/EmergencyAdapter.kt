@@ -17,11 +17,10 @@ class EmergencyAdapter(
     private val onCallRequested: (String) -> Unit
 ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
-    private sealed interface Row {
-        data class SectionRow(val title: String) : Row
-        data class NumberRow(val number: EmergencyNumber) : Row
-        data class TipRow(val tip: EmergencyTip) : Row
-    }
+    private sealed interface Row
+    private data class SectionRow(val title: String) : Row
+    private data class NumberRow(val number: EmergencyNumber) : Row
+    private data class TipRow(val tip: EmergencyTip) : Row
 
     private val rows: List<Row> = buildList {
         add(SectionRow("Tek numara"))

@@ -13,10 +13,9 @@ import com.depremhazirlik.app.databinding.ItemGuideHeaderBinding
  */
 class GuideAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
-    private sealed interface Row {
-        data class HeaderRow(val section: GuideSection) : Row
-        data class BulletRow(val text: String) : Row
-    }
+    private sealed interface Row
+    private data class HeaderRow(val section: GuideSection) : Row
+    private data class BulletRow(val text: String) : Row
 
     private val expanded: MutableSet<String> = mutableSetOf(GuideData.sections.first().id)
     private var rows: List<Row> = buildRows()
