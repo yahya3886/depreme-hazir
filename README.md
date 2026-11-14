@@ -95,4 +95,4 @@ duyurular esas alınmalıdır.
 
 ## Lisans
 
-Örnek proje olarak serbestçe kullanılabilir.
+MIT — ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
